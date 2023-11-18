@@ -1,0 +1,180 @@
+h1{
+font-size: xx-large;
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+h2{
+    font-size: medium;
+    color:blue ;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+h3{
+    font-size: medium;
+    color:blue ;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+} 
+
+
+p{
+    font-size: medium;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: honeydew;
+}
+
+table{
+border: 2px solid blue;
+width: 50%;
+text-align: center;
+border-collapse: collapse;
+}
+
+th{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    background-color: lightcyan;
+}
+td{
+    border: 2px solid blue;
+    padding: 5px;
+    border-collapse:collapse ;
+}
+
+
+   
+
+
+
+.form{
+    height: 30px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#btnsubmit{
+    height: 30px;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+
+#menu{
+   
+    float: right;
+    padding: 10px;
+    border-right: 2px blue;
+    
+}
+
+#menulist{
+    display: inline;
+    padding: 10px;
+    border-right: 2px blue;
+}
+
+#only me{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+    margin: 100px;
+    padding: 30px;
+}
+
+#dit{
+margin: 50px;
+}
+
+#About{
+    font-size: large;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+#show mi{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    grid-gap: 30px;
+    
+}
+
+
+
+
+
+#mac{
+    font-size: large;
+    font-weight: bold;
+    color: darkslateblue;  
+    
+}
+
+.parent{
+    width: 1200px;
+    
+    overflow: hidden;
+    height: 800px;
+    margin: left 360px; 
+    margin-top: 20px;
+  
+}
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+.slides{
+   height: 800px;
+   width: 3600px;
+   margin: 0 0 0 -2400px;
+   position: relative;
+   float: left;
+   -webkit-animation-name: slide_animation;
+   -webkit-animation-duration: 10s;
+   -webkit-animation-iteration-count: infinite; 
+   -webkit-animation-direction: alternate;
+   -webkit-animation-play-state: running;
+  
+}
+.element{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 8%;
+    box-sizing: border-box;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+}
+#image{
+    width: 100%;
+}
