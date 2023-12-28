@@ -1,0 +1,11 @@
+{%extends "DOS/base.html"%}
+{%block body%}
+{%for x in image%}
+<div class="card bg-light ms-4 me-4 mb-4" >
+    <img src="{{x.theme.url}}">
+    <div class="card-header"><i class="fa-solid fa-list fa-lg"></i> Management</div>
+    <div class="card-body">
+      
+    {% endfor %}
+</div>
+{%endblock%}
